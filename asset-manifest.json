@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/adina-shaikh-portfolio/static/css/main.9250fd4e.css",
+    "main.js": "/adina-shaikh-portfolio/static/js/main.fea9a4d0.js",
+    "static/js/453.b05d8aa5.chunk.js": "/adina-shaikh-portfolio/static/js/453.b05d8aa5.chunk.js",
+    "static/media/mock04.png": "/adina-shaikh-portfolio/static/media/mock04.f7b5679efade992a078c.png",
+    "static/media/bg-light.png": "/adina-shaikh-portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/adina-shaikh-portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/mock01.png": "/adina-shaikh-portfolio/static/media/mock01.61bd486a54bf6e17ee5a.png",
+    "static/media/mock02.png": "/adina-shaikh-portfolio/static/media/mock02.bced48ae9cdda3acf1a3.png",
+    "static/media/rhino.png": "/adina-shaikh-portfolio/static/media/rhino.1835d55372dd80f5cc3e.png",
+    "static/media/mock03.png": "/adina-shaikh-portfolio/static/media/mock03.a4600719e0b5d2a3155b.png",
+    "static/media/solidworks.png": "/adina-shaikh-portfolio/static/media/solidworks.2e9287fb557c05e0b837.png",
+    "static/media/mars.png": "/adina-shaikh-portfolio/static/media/mars.9b72e9fe04e574d0d210.png",
+    "static/media/msoffice.png": "/adina-shaikh-portfolio/static/media/msoffice.156ba2329cf9c1744048.png",
+    "static/media/adams.png": "/adina-shaikh-portfolio/static/media/adams.5f018c7e228a67bc727f.png",
+    "static/media/profile.jpg": "/adina-shaikh-portfolio/static/media/profile.c2a739b84f49be6c884a.jpg",
+    "static/media/hydrostar.png": "/adina-shaikh-portfolio/static/media/hydrostar.abc0ccd43bdcc711d778.png",
+    "static/media/abaqus.png": "/adina-shaikh-portfolio/static/media/abaqus.4f96ff1259324c77744b.png",
+    "static/media/python.png": "/adina-shaikh-portfolio/static/media/python.c828af7d0a97f43e991f.png",
+    "static/media/canva.png": "/adina-shaikh-portfolio/static/media/canva.4663274ac621e450ee26.png",
+    "index.html": "/adina-shaikh-portfolio/index.html",
+    "main.9250fd4e.css.map": "/adina-shaikh-portfolio/static/css/main.9250fd4e.css.map",
+    "main.fea9a4d0.js.map": "/adina-shaikh-portfolio/static/js/main.fea9a4d0.js.map",
+    "453.b05d8aa5.chunk.js.map": "/adina-shaikh-portfolio/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9250fd4e.css",
+    "static/js/main.fea9a4d0.js"
+  ]
+}
