@@ -1,0 +1,41 @@
+#contact {
+    padding: 6% 10%;
+}
+
+.contact_wrapper {
+    text-align: center;
+}
+
+.contact_wrapper h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact_wrapper p {
+    opacity: 0.8;
+    margin-bottom: 30px;
+}
+
+.contact-info p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.contact-buttons {
+    margin-top: 40px;
+}
+
+.cv-button {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.cv-button:hover {
+    background: white;
+    color: black;
+}
