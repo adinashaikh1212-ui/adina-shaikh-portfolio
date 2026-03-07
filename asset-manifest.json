@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/adina-shaikh-portfolio/static/css/main.e23be3cb.css",
-    "main.js": "/adina-shaikh-portfolio/static/js/main.f46841ac.js",
+    "main.css": "/adina-shaikh-portfolio/static/css/main.2fdf6835.css",
+    "main.js": "/adina-shaikh-portfolio/static/js/main.d6c267d6.js",
     "static/js/453.b05d8aa5.chunk.js": "/adina-shaikh-portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/bg-dark.jpg": "/adina-shaikh-portfolio/static/media/bg-dark.a242b0c2701fcd3492a5.jpg",
     "static/media/Picture2cylinder.png": "/adina-shaikh-portfolio/static/media/Picture2cylinder.8ff804a468ac230ed1eb.png",
@@ -46,12 +46,12 @@
     "static/media/python.png": "/adina-shaikh-portfolio/static/media/python.c828af7d0a97f43e991f.png",
     "static/media/canva.png": "/adina-shaikh-portfolio/static/media/canva.4663274ac621e450ee26.png",
     "index.html": "/adina-shaikh-portfolio/index.html",
-    "main.e23be3cb.css.map": "/adina-shaikh-portfolio/static/css/main.e23be3cb.css.map",
-    "main.f46841ac.js.map": "/adina-shaikh-portfolio/static/js/main.f46841ac.js.map",
+    "main.2fdf6835.css.map": "/adina-shaikh-portfolio/static/css/main.2fdf6835.css.map",
+    "main.d6c267d6.js.map": "/adina-shaikh-portfolio/static/js/main.d6c267d6.js.map",
     "453.b05d8aa5.chunk.js.map": "/adina-shaikh-portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e23be3cb.css",
-    "static/js/main.f46841ac.js"
+    "static/css/main.2fdf6835.css",
+    "static/js/main.d6c267d6.js"
   ]
 }
