@@ -109,7 +109,7 @@ function Project() {
 
       </section>
 
-      {/* ===== PROJECT 1 ===== */}
+      {/* ===== PROJECT 2 ===== */}
       <section className="project-section" data-aos="fade-up">
 
         <h2>CFD Based Open Water Analysis of DTC Model Scale Propeller</h2>
@@ -120,7 +120,7 @@ function Project() {
 
         <img src={velJ03} className="hero-image" />
 
-        {expandedProject === 0 && (
+        {expandedProject === 1 && (
           <div className="project-details">
 
             <div className="detail-block">
@@ -155,14 +155,14 @@ function Project() {
 
         <button 
           className="read-more-btn"
-          onClick={() => toggleProject(0)}
+          onClick={() => toggleProject(1)}
         >
-          {expandedProject === 0 ? "Show Less" : "Read More"}
+          {expandedProject === 1 ? "Show Less" : "Read More"}
         </button>
 
       </section>
 
-      {/* ===== PROJECT 2 ===== */}
+      {/* ===== PROJECT 3 ===== */}
       <section className="project-section" data-aos="fade-up">
 
         <h2>CFD of Flow around cylinder</h2>
@@ -173,7 +173,7 @@ function Project() {
 
         <img src={Picture1cylinder} className="hero-image" />
 
-        {expandedProject === 0 && (
+        {expandedProject === 2 && (
           <div className="project-details">
 
             <div className="detail-block">
@@ -208,13 +208,13 @@ function Project() {
 
         <button 
           className="read-more-btn"
-          onClick={() => toggleProject(0)}
+          onClick={() => toggleProject(2)}
         >
-          {expandedProject === 0 ? "Show Less" : "Read More"}
+          {expandedProject === 2 ? "Show Less" : "Read More"}
         </button>
 
       </section>
-      {/* ===== PROJECT 3 ===== */}
+      {/* ===== PROJECT 4 ===== */}
       <section className="project-section" data-aos="fade-up">
 
         <h2>Prediction of Seakeeping Performance of a Barge</h2>
@@ -225,7 +225,7 @@ This project predicts the seakeeping performance of a barge in both regular and 
 
         <img src={Picture1SD} className="hero-image" />
 
-        {expandedProject === 0 && (
+        {expandedProject === 3 && (
           <div className="project-details">
 
             <div className="detail-block">
@@ -260,13 +260,13 @@ This project predicts the seakeeping performance of a barge in both regular and 
 
         <button 
           className="read-more-btn"
-          onClick={() => toggleProject(0)}
+          onClick={() => toggleProject(3)}
         >
-          {expandedProject === 0 ? "Show Less" : "Read More"}
+          {expandedProject === 3 ? "Show Less" : "Read More"}
         </button>
 
       </section>
-      {/* ===== PROJECT 4 ===== */}
+      {/* ===== PROJECT 5 ===== */}
       <section className="project-section" data-aos="fade-up">
 
         <h2>Development of Lines plan, Offset Tables, Hydrostatic Curves, Bonjean Curves and Sectional Area Curves for DTC Ship</h2>
@@ -277,7 +277,7 @@ This project develops the lines plan, offset table, hydrostatic curves, Bonjean 
 
         <img src={Picture1hydro} className="hero-image" />
 
-        {expandedProject === 0 && (
+        {expandedProject === 4 && (
           <div className="project-details">
 
             <div className="detail-block">
@@ -312,13 +312,13 @@ This project develops the lines plan, offset table, hydrostatic curves, Bonjean 
 
         <button 
           className="read-more-btn"
-          onClick={() => toggleProject(0)}
+          onClick={() => toggleProject(4)}
         >
-          {expandedProject === 0 ? "Show Less" : "Read More"}
+          {expandedProject === 4 ? "Show Less" : "Read More"}
         </button>
 
       </section>
-      {/* ===== PROJECT 5 ===== */}
+      {/* ===== PROJECT 6 ===== */}
       <section className="project-section" data-aos="fade-up">
 
         <h2>Multiphysics analysis and design optimization of composite nose radome part of supersonic combat aircraft covering thermal, electromagnetic, aerodynamic and mechanical disciplines.</h2>
@@ -329,7 +329,7 @@ This project develops the lines plan, offset table, hydrostatic curves, Bonjean 
 
         <img src={Picture1FYP} className="hero-image" />
 
-        {expandedProject === 0 && (
+        {expandedProject === 5 && (
           <div className="project-details">
 
             <div className="detail-block">
@@ -364,13 +364,13 @@ This project develops the lines plan, offset table, hydrostatic curves, Bonjean 
 
         <button 
           className="read-more-btn"
-          onClick={() => toggleProject(0)}
+          onClick={() => toggleProject(5)}
         >
-          {expandedProject === 0 ? "Show Less" : "Read More"}
+          {expandedProject === 5 ? "Show Less" : "Read More"}
         </button>
 
       </section>
-      {/* ===== PROJECT 6 ===== */}
+      {/* ===== PROJECT 7 ===== */}
       <section className="project-section" data-aos="fade-up">
 
         <h2>Modeling and Simulation of Solid Oxide Fuel Cell Inte-grated with Anaerobic Digester, Thermal Storage Unit and Solar Collector: A Net Zero Emission System</h2>
@@ -381,7 +381,7 @@ This project develops the lines plan, offset table, hydrostatic curves, Bonjean 
 
         <img src={Picture1SOFC} className="hero-image" />
 
-        {expandedProject === 0 && (
+        {expandedProject === 6 && (
           <div className="project-details">
 
             <div className="detail-block">
@@ -416,13 +416,13 @@ This project develops the lines plan, offset table, hydrostatic curves, Bonjean 
 
         <button 
           className="read-more-btn"
-          onClick={() => toggleProject(0)}
+          onClick={() => toggleProject(6)}
         >
-          {expandedProject === 0 ? "Show Less" : "Read More"}
+          {expandedProject === 6 ? "Show Less" : "Read More"}
         </button>
 
       </section>
-      {/* ===== PROJECT 7 ===== */}
+      {/* ===== PROJECT 8 ===== */}
       <section className="project-section" data-aos="fade-up">
 
         <h2>Design and Development of a Single-Actuator Underactuated Prosthetic Hand</h2>
@@ -432,7 +432,7 @@ This project develops the lines plan, offset table, hydrostatic curves, Bonjean 
         </p>
 
         <img src={Picture1} className="hero-image" />
-        {expandedProject === 0 && (
+        {expandedProject === 7 && (
           <div className="project-details">
 
             <div className="detail-block">
@@ -467,9 +467,9 @@ This project develops the lines plan, offset table, hydrostatic curves, Bonjean 
 
         <button 
           className="read-more-btn"
-          onClick={() => toggleProject(0)}
+          onClick={() => toggleProject(7)}
         >
-          {expandedProject === 0 ? "Show Less" : "Read More"}
+          {expandedProject === 7 ? "Show Less" : "Read More"}
         </button>
 
       </section>
