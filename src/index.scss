@@ -32,7 +32,9 @@ p, a, h1, h2, h3, h4, h5, label, button {
   color: white;
   font-family: "Lato", sans-serif;
 }
-
+.vertical-timeline-element .vertical-timeline-element-date {
+    color: white;
+}
 .navigation-bar {
   justify-content: space-between;
   background-color: #0d1116;
@@ -98,10 +100,103 @@ p, a, h1, h2, h3, h4, h5, label, button {
   .navigation-bar {
     background-color: #f8f9fa;
   }
+.sociald_icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        color: black;
+
+        svg {
+        font-size: 1.2em;
+        cursor: pointer;       // nice UX
+        transition: transform 0.3s ease;
+    }
+
+    svg:hover {
+        transform: scale(1.1);
+    }
+    }
 
   p, a, h1, h2, h3, h4, h5, label, button {
     color: #0d1116;
   }
+.scroll-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+
+  background: black;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.scroll-top:hover {
+  transform: scale(1.1);
+  background: black;
+}
+  .read-more-btn:hover {
+    background: black;
+    color: white;
+  }
+.read-more-btn {
+    margin-top: 10px;
+    background: transparent;
+    border: 3px solid black;
+    bottom: 14px;
+    left: 0%;
+    color: black;
+    padding: 8px 22px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.cv-button {
+    display: inline-block;
+    padding: 12px 30px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    transition: all 0.3s ease;
+}
+
+.cv-button:hover {
+    background: black;
+    color: white;
+}
+
+.primary-btn {
+    background: black;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.primary-btn:hover {
+    transform: translateY(-5px);
+}
+.cv-btn {
+    border: 1px solid black;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.cv-btn:hover {
+    background: black;
+    color: white;
+}
 
   a:hover {
     color: #5000ca;
@@ -113,11 +208,27 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   .about-section {
-    background-image: url("./assets/images/bg-light.png");
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 40px;
+  }
+  .skills-container {
+    position: relative;
+    background-color: #f8f9fa;
+
   }
 
   .skills-container svg {
     color: #0d1116;
+  }
+  .tool-item p {
+    color: #0d1116;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease;
   }
 
   .chip {
@@ -126,7 +237,7 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   .vertical-timeline::before {
-    background-color: rgba(0, 0, 0, 0.08);
+    background-color: rgb(39, 40, 34);
   }
 
   .vertical-timeline--animate .vertical-timeline-element-content.bounce-in {
@@ -134,11 +245,11 @@ p, a, h1, h2, h3, h4, h5, label, button {
   }
 
   .vertical-timeline--two-columns .vertical-timeline-element-content .vertical-timeline-element-date {
-    color: gray;
+    color: rgb(39, 40, 34);
   }
 
   .vertical-timeline-element-content-arrow {
-    border-right: 7px solid rgba(0, 0, 0, 0.08) !important;
+    border-right: 7px solid rgb(39, 40, 34) !important;
   }
 
   .flex-chips .chip-title {

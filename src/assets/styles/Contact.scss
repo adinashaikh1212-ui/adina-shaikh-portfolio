@@ -7,22 +7,44 @@
 }
 
 .contact_wrapper h1 {
-    font-size: 36px;
+    font-size: 66px;
     margin-bottom: 20px;
 }
 
 .contact_wrapper p {
-    opacity: 0.8;
+    font-family: 'Playfair Display', serif;
+    opacity: 1;
     margin-bottom: 30px;
+    font-size: 26px;
+
 }
+.social_icons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        color: white;
+
+        svg {
+        font-size: 4em;
+        cursor: pointer;       // nice UX
+        transition: transform 0.3s ease;
+    }
+
+    svg:hover {
+        transform: scale(1.15);
+    }
+    }
 
 .contact-info p {
+    opacity: 0.8;
     margin: 10px 0;
     font-size: 16px;
 }
 
 .contact-buttons {
     margin-top: 40px;
+    justify-content: center;
 }
 
 .cv-button {

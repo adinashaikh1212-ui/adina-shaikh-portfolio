@@ -5,6 +5,8 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -62,13 +64,16 @@ useEffect(() => {
 
         <h1>Get In Touch</h1>
         <p>
-          I am always open to research collaborations, aerospace engineering 
-          opportunities, and innovative energy system projects.
+          I am always open to research collaborations, engineering opportunities in aerospace, ship and offshore design, and advanced energy systems. 
         </p>
+        <div className="social_icons">
+            <a href="mailto:adeena.shykh1@gmail.com"><MailOutlineIcon /></a>
+            <a href="https://www.linkedin.com/in/adeena-shykh2/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
+        </div>
 
         <div className="contact-info">
           <p><strong>Email:</strong> adeena.shykh1@gmail.com</p>
-          <p><strong>LinkedIn:</strong> linkedin.com/in/yourprofile</p>
+          <p><strong>LinkedIn:</strong> https://www.linkedin.com/in/adeena-shykh2/</p>
           <p><strong>Location:</strong> Europe / Pakistan</p>
         </div>
 
