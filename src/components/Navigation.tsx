@@ -24,7 +24,7 @@ function Navigation({parentToChild, modeChange}: any) {
 
   const [mobileOpen, setMobileOpen] = useState<boolean>(false);
   const [scrolled, setScrolled] = useState<boolean>(false);
-
+  const [activeSection, setActiveSection] = useState('');
   const handleDrawerToggle = () => {
     setMobileOpen((prevState) => !prevState);
   };
@@ -45,7 +45,24 @@ function Navigation({parentToChild, modeChange}: any) {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
+useEffect(() => {
+  const sections = document.querySelectorAll('section');
 
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          setActiveSection(entry.target.id);
+        }
+      });
+    },
+    { threshold: 0.6 }
+  );
+
+  sections.forEach(section => observer.observe(section));
+
+  return () => observer.disconnect();
+}, []);
   const scrollToSection = (section: string) => {
     console.log(section)
     const expertiseElement = document.getElementById(section);
