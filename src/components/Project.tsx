@@ -57,6 +57,7 @@ function Project() {
     <div className="case-study-container" id="projects">
 
       <h1 data-aos="fade-up">Engineering & Research Projects</h1>
+      \begin{comment}
       {/* ===== PROJECT 1 ===== */}
       <section className="project-section" data-aos="fade-up">
 
@@ -108,7 +109,7 @@ function Project() {
         </button>
 
       </section>
-
+      \end{comment}
       {/* ===== PROJECT 2 ===== */}
       <section className="project-section" data-aos="fade-up">
 
