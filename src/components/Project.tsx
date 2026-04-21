@@ -57,58 +57,7 @@ function Project() {
     <div className="case-study-container" id="projects">
 
       <h1 data-aos="fade-up">Engineering & Research Projects</h1>
-      {/* ===== PROJECT 1 ===== */}
-      <section className="project-section" data-aos="fade-up">
-
-        <h2>FEM Analysis With Three Cargo Holds, To Assess Global And Local Hull Strength</h2>
-
-        <p className="project-intro">
-          This project performs finite element analysis of a bulk carrier with three cargo holds to assess both global and local hull strength. It includes scantling development in Mars2000, CAD in AUTOCAD, FE modeling in FEMAP, meshing, and application of cargo, hydrostatic, stillwater, and wave induced loads. The structure was then evaluated under sagging and hogging cases by studying stress distribution, deformation, and critical hot spot regions.
-        </p>
-
-        <img src={Picture1CH} className="hero-image" />
-        {expandedProject === 0 && (
-          <div className="project-details">
-
-            <div className="detail-block">
-              <h3>Scope</h3>
-              <p>
-                This project focuses on the local and global strength assessment of a bulk carrier with three cargo holds. It covers preliminary scantling development, finite element modeling, and structural evaluation under stillwater and extreme design wave loading conditions.
-              </p>
-            </div>
-
-            <div className="detail-block">
-              <h3>Methodology</h3>
-              <p>
-                The ship section was first developed in Mars2000 using rule based scantling calculations for functional elements, primary supporting members, and stiffeners. A 3D FEM model was then built in FEMAP, meshed with plate elements, and analyzed by applying cargo, gravity, hydrostatic, stillwater, and wave loads for four cases: stillwater sagging, stillwater hogging, EDW sagging, and EDW hogging.
-              </p>
-            </div>
-
-            <div className="detail-block">
-              <h3>Results</h3>
-              <p>
-                The analysis showed that the maximum stresses occurred in the EDW hogging case, while vertical deflections in all loading cases remained within the allowable limit of Lpp/200. The study also identified stress hot spots near the corners of deck openings, suggesting that added stiffening, hatch coamings, and smoother corner geometry are needed in the detailed design stage.
-              </p>
-            </div>
-
-            <div className="image-gallery">
-              <img src={Picture2CH} />
-              <img src={Picture3CH} />
-              <img src={Picture4CH} />
-            </div>
-
-          </div>
-        )}
-
-        <button 
-          className="read-more-btn"
-          onClick={() => toggleProject(0)}
-        >
-          {expandedProject === 0 ? "Show Less" : "Read More"}
-        </button>
-
-      </section>
-
+      
       {/* ===== PROJECT 2 ===== */}
       <section className="project-section" data-aos="fade-up">
 
