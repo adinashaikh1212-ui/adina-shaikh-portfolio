@@ -57,7 +57,7 @@ function Project() {
     <div className="case-study-container" id="projects">
 
       <h1 data-aos="fade-up">Engineering & Research Projects</h1>
-      <!--{/* ===== PROJECT 1 ===== */}-->
+     {/* ===== PROJECT 1 ===== */}
       <section className="project-section" data-aos="fade-up">
 
         <h2>FEM Analysis With Three Cargo Holds, To Assess Global And Local Hull Strength</h2>
